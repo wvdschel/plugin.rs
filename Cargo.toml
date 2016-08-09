@@ -1,0 +1,10 @@
+[package]
+name = "plugin"
+version = "0.1.0"
+authors = ["wim <lists@fixnum.org>"]
+
+[dependencies]
+libloading = "0.3"
+
+[dependencies.shared_traits]
+path = "src/shared_traits"

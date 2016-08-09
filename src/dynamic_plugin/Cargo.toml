@@ -1,0 +1,13 @@
+[package]
+name = "dynamic_plugin"
+version = "0.1.0"
+authors = ["wvanders"]
+
+[lib]
+name = "dynamic_plugin"
+crate_type = ["dylib"]
+
+[dependencies]
+
+[dependencies.shared_traits]
+path = "../shared_traits"
